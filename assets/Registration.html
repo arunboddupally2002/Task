@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <label ><h1>Student Registration Form</h1></label>
+    <label for=""><p>Fill this form to register</p></label>
+    <form action="./Login.html">
+        <label for="fname">FirstName </label><input type="text" id="fname" placeholder="enter your first name" required autofocus><br>
+        <label for="lname">LastName </label><input type="text" id="lname" placeholder="enter your last name" required autofocus><br>
+        <label for="email">Email </label><input type="email" id="email" placeholder="enter you email " required autofocus><br>
+        <label for="date">Date of Birth</label><input type="date" id="date" placeholder="enter your DOB" required><br>
+        <label for="username">Set Username</label><input type="text" id="username" placeholder="enter username " required><br>
+        <label for="password">Password</label><input type="password" id="password" placeholder="password" required min="8" max="12"><br>
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="Gender" id="male"><label for="male">Male</label><br>
+        <input type="radio" name="Gender" id="female"><label for="female">Fenale</label><br>
+        <label for="course">Course</label>
+        <select name="course" id="course">
+            <option value="python">JFS</option>
+            <option value="Java">PFS</option>
+            <option value="ds">DataScience</option>
+            <option value="BE">Backend</option>
+            <option value="FE">Frontend</option>
+        </select><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
